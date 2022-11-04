@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marco\\estudos-csharp\\AprendendoCSharp\\explorando-csharp\\1-OláMundo\\1-OláMundo.csproj": {}
+    "C:\\Users\\marco\\estudos-csharp\\explorando-csharp\\AprendendoCSharp\\1-OláMundo\\1-OláMundo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marco\\estudos-csharp\\AprendendoCSharp\\explorando-csharp\\1-OláMundo\\1-OláMundo.csproj": {
+    "C:\\Users\\marco\\estudos-csharp\\explorando-csharp\\AprendendoCSharp\\1-OláMundo\\1-OláMundo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marco\\estudos-csharp\\AprendendoCSharp\\explorando-csharp\\1-OláMundo\\1-OláMundo.csproj",
+        "projectUniqueName": "C:\\Users\\marco\\estudos-csharp\\explorando-csharp\\AprendendoCSharp\\1-OláMundo\\1-OláMundo.csproj",
         "projectName": "1-OláMundo",
-        "projectPath": "C:\\Users\\marco\\estudos-csharp\\AprendendoCSharp\\explorando-csharp\\1-OláMundo\\1-OláMundo.csproj",
+        "projectPath": "C:\\Users\\marco\\estudos-csharp\\explorando-csharp\\AprendendoCSharp\\1-OláMundo\\1-OláMundo.csproj",
         "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marco\\estudos-csharp\\AprendendoCSharp\\explorando-csharp\\1-OláMundo\\obj\\",
+        "outputPath": "C:\\Users\\marco\\estudos-csharp\\explorando-csharp\\AprendendoCSharp\\1-OláMundo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
