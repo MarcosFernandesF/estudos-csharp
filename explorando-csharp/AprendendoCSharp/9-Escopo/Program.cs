@@ -30,9 +30,7 @@ class Programa
         }
         else
             // Com uma única linha não precisa colocar chaves {}
-            string teste = "teste";
-
-        Console.WriteLine(teste);
+            Console.WriteLine("Não pode entrar!");
 
         Console.WriteLine("Tecle enter para fechar...");
         Console.Read();
