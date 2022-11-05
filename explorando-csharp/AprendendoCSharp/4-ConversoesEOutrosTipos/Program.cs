@@ -18,7 +18,7 @@ class Programa
         // Short armazena 16 bits.
         short y = 15000;
 
-        // Float possui uma precisão menor que Double.
+        // Float possui uma precisão menor que Double (32 bits).
         // o "f" sinaliza que eu tenho realmente intuito de usar Float invés de Double.
         float altura = 1.62f;
 

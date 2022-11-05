@@ -10,6 +10,10 @@ class Programa
 
         Console.WriteLine(idadeAna);
 
+        // idadeAna continua sendo 30 mesmo alterando o valor posteriormente.
+        // Variável armazena o valor e não referências.
+        idade = 25;
+
         Console.WriteLine("Tecle enter para fechar...");
         Console.Read();
     }
