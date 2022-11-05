@@ -1,0 +1,15 @@
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\bin\Debug\net6.0\2-CriandoVariaveisInteiro.exe
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\bin\Debug\net6.0\2-CriandoVariaveisInteiro.deps.json
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\bin\Debug\net6.0\2-CriandoVariaveisInteiro.runtimeconfig.json
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\bin\Debug\net6.0\2-CriandoVariaveisInteiro.dll
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\bin\Debug\net6.0\2-CriandoVariaveisInteiro.pdb
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveisInteiro.csproj.AssemblyReference.cache
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveisInteiro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveisInteiro.AssemblyInfoInputs.cache
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveisInteiro.AssemblyInfo.cs
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveisInteiro.csproj.CoreCompileInputs.cache
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveisInteiro.dll
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\refint\2-CriandoVariaveisInteiro.dll
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveisInteiro.pdb
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveisInteiro.genruntimeconfig.cache
+C:\Users\INTEL\estudos-csharp\explorando-csharp\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\ref\2-CriandoVariaveisInteiro.dll

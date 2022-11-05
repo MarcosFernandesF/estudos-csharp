@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\marco\\.nuget\\packages\\": {}
+    "C:\\Users\\INTEL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marco\\estudos-csharp\\explorando-csharp\\AprendendoCSharp\\1-OláMundo\\1-OláMundo.csproj",
+      "projectUniqueName": "C:\\Users\\INTEL\\estudos-csharp\\explorando-csharp\\AprendendoCSharp\\1-OláMundo\\1-OláMundo.csproj",
       "projectName": "1-OláMundo",
-      "projectPath": "C:\\Users\\marco\\estudos-csharp\\explorando-csharp\\AprendendoCSharp\\1-OláMundo\\1-OláMundo.csproj",
-      "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marco\\estudos-csharp\\explorando-csharp\\AprendendoCSharp\\1-OláMundo\\obj\\",
+      "projectPath": "C:\\Users\\INTEL\\estudos-csharp\\explorando-csharp\\AprendendoCSharp\\1-OláMundo\\1-OláMundo.csproj",
+      "packagesPath": "C:\\Users\\INTEL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\INTEL\\estudos-csharp\\explorando-csharp\\AprendendoCSharp\\1-OláMundo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\INTEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
