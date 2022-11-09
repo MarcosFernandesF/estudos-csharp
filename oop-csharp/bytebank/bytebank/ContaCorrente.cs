@@ -8,10 +8,10 @@ namespace bytebank
 {
     public class ContaCorrente
     {
-        public string titular;
-        public string conta;
-        public int numeroAgencia;
-        public double saldo;
+        public string titular; // String Valor padrão = Vazio
+        public string conta; // String Valor padrão = Vazio
+        public int numeroAgencia; // Int Valor padrão = 0
+        public double saldo = 100; // Double Valor padrão = 0
 
         // Método público e que não retorna nada (Void)
         public void Depositar(double valor)
