@@ -1,23 +1,25 @@
-﻿using System;
+﻿using bytebank.Titular;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace bytebank
+namespace bytebank.Contas
 {
     public class ContaCorrente
     {
-        public string titular; // String Valor padrão = Vazio
         public string conta; // String Valor padrão = Vazio
         public int numeroAgencia; // Int Valor padrão = 0
         public double saldo = 100; // Double Valor padrão = 0
+
+        public Cliente titular; // Composição: titular vai receber uma classe instanciada fora de ContaCorrente
 
         // Método público e que não retorna nada (Void)
         public void Depositar(double valor)
         {
             // This representa o próprio objeto, é como se fosse um self do python
-            this.saldo += valor;
+            saldo += valor;
         }
 
         // Método público que retorna um valor booleano (True or False)
@@ -25,7 +27,7 @@ namespace bytebank
         {
             if (valor <= saldo)
             {
-                this.saldo -= valor;
+                saldo -= valor;
                 return true;
             }
             else
@@ -33,16 +35,16 @@ namespace bytebank
                 return false;
             }
         }
-        
+
         public bool Transferir(double valor, ContaCorrente destino)
         {
-            if (this.saldo < valor)
+            if (saldo < valor)
             {
                 return false;
             }
             else
             {
-                this.Sacar(valor);
+                Sacar(valor);
                 destino.Depositar(valor);
                 return true;
             }
