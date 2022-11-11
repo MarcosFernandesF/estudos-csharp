@@ -78,11 +78,28 @@ using bytebank.Titular;
 
 //Console.WriteLine(conta2.titular.nome);
 
-ContaCorrente conta3 = new ContaCorrente();
-conta3.NumeroAgencia = 18; // Set com property
-conta3.Conta = "1011-H";
-conta3.SetSaldo(-10); // Set
+//ContaCorrente conta3 = new ContaCorrente();
+//conta3.NumeroAgencia = 18; // Set com property
+//conta3.Conta = "1011-H"; // Propriedade autoimplementada
+//conta3.SetSaldo(-10); // Set
 
-Console.WriteLine(conta3.GetSaldo()); // Get
-Console.WriteLine(conta3.NumeroAgencia); // Get com property
-Console.WriteLine(conta3.Conta);
+//Console.WriteLine(conta3.GetSaldo()); // Get
+//Console.WriteLine(conta3.NumeroAgencia); // Get com property
+//Console.WriteLine(conta3.Conta);
+
+//ContaCorrente conta4 = new ContaCorrente(18, "1010-X");
+//conta4.SetSaldo(500);
+//conta4.Titular = new Cliente();
+
+//Console.WriteLine(conta4.GetSaldo());
+//Console.WriteLine(conta4.NumeroAgencia);
+
+ContaCorrente conta5 = new ContaCorrente(283, "1234-X");
+// Para acessar uma propriedade estática tem que referenciar a classe (ContaCorrente) e não o objeto instanciado(conta5)
+Console.WriteLine(ContaCorrente.TotalDeContasCriadas); 
+
+ContaCorrente conta6 = new ContaCorrente(284, "9874-Z");
+Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
+
+ContaCorrente conta7 = new ContaCorrente(285, "1333-Y");
+Console.WriteLine(ContaCorrente.TotalDeContasCriadas);

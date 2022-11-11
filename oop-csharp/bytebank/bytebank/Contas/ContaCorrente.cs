@@ -9,11 +9,14 @@ namespace bytebank.Contas
 {
     public class ContaCorrente
     {
+        public static int TotalDeContasCriadas { get; set; } // static: Propriedade passa a ser da classe e não dos objetos instanciados
         private int numeroAgencia; // Int Valor padrão = 0
         public int NumeroAgencia // O property por padrão é public e tem a primeira palavra capitalizada
         {
             get { return numeroAgencia; }
-            set
+
+            // private para forçar o desenvolvedor a passar o numero para o construtor e não settar posteriormente
+            private set
             {
                 if (value > 0)
                 {
@@ -30,7 +33,7 @@ namespace bytebank.Contas
 
         private double saldo = 100; // Double Valor padrão = 0
 
-        public Cliente Titular { get; set; }; // Composição: titular vai receber uma classe instanciada fora de ContaCorrente
+        public Cliente Titular { get; set; } // Composição: titular vai receber uma classe instanciada fora de ContaCorrente
 
         // Método público e que não retorna nada (Void)
         public void Depositar(double valor)
@@ -83,5 +86,14 @@ namespace bytebank.Contas
         {
             return this.saldo;
         }
+
+        //Método construtor, ctor tab tab
+        public ContaCorrente(int numeroAgencia, string numeroConta)
+        {
+            this.NumeroAgencia = numeroAgencia;
+            this.Conta = numeroConta;
+            TotalDeContasCriadas++;
+        }
+
     }
 }
